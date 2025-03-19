@@ -53,18 +53,6 @@ This application is configured for deployment to Vercel. To deploy:
 
 3. Follow the prompts to complete deployment.
 
-## API Usage
-
-This application uses the BuildCores API to search for PC cases. The API endpoint used is:
-
-```
-https://www.api.buildcores.com/api/official/database/parts
-```
-
-The request is sent with parameters to search for PC cases with:
-- `part_category`: "PCCase"
-- `search_query`: User's input search term
-
 ## License
 
 This project is open source and available under the MIT License.
